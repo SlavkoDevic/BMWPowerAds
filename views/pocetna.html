@@ -1,0 +1,92 @@
+<oglasi-header></oglasi-header>
+<div class="container">
+
+<br>
+<h1 class="panel-default">
+  <span class="glyphicon glyphicon-star"></span>
+  <span class="glyphicon glyphicon-star"></span>
+  <span class="glyphicon glyphicon-star"></span>
+  <span class="glyphicon glyphicon-star"></span>
+  <span class="glyphicon glyphicon-star"></span> The Best Buy
+  <span class="glyphicon glyphicon-star"></span>
+  <span class="glyphicon glyphicon-star"></span>
+  <span class="glyphicon glyphicon-star"></span>
+  <span class="glyphicon glyphicon-star"></span>
+  <span class="glyphicon glyphicon-star"></span></h1>
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+    <li data-target="#myCarousel" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="item active">
+      <img src="../Images/M2.jpg" alt="M2">
+      <div class="carousel-caption">
+        <h3>BMW M2</h3>
+        <p>2016. Gasoline 50000 km</p>
+      </div>
+    </div>
+    <div class="item">
+      <img src="../Images/M4.jpg" alt="M4">
+      <div class="carousel-caption">
+        <h3>BMW M4</h3>
+        <p>2017. Gasoline 60000 km</p>
+      </div>
+    </div>
+    <div class="item">
+      <img src="../Images/M5.jpg" alt="M5">
+      <div class="carousel-caption">
+        <h3>BMW M5<h3>
+        <p>2018. Gasoline 40000 km</p>
+      </div>
+    </div>
+  </div>
+  <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left"></span>
+    <span class="sr-only">Back</span>
+  </a>
+  <a class="right carousel-control" href="#myCarousel" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right"></span>
+    <span class="sr-only">Foward/span>
+  </a>
+</div>
+  <div class="row">
+    <div ng-repeat="i in oglasi | filter:pretraga" class="oglas col-lg-3 col-md-3 col-sm-6 col-xs-12">
+      <h3 class="text-info"> {{ i.naslov }}</h3>
+      <p><img src="{{ i.slika}}" class="img-rounded"></p>
+      <h3 class="text-success">Price: {{ i.cena }} <span class="glyphicon glyphicon-euro glyphicon-sm"></span></h3>
+      <ul>
+        <li><span class="glyphicon glyphicon-cog"></span> Production Year: {{ i.proizveden }} </li>
+        <li><p> Rate
+          <span class="glyphicon glyphicon-star-empty glyphicon-sm"></span>
+          <span class="glyphicon glyphicon-star-empty glyphicon-sm"></span>
+          <span class="glyphicon glyphicon-star-empty glyphicon-sm"></span>
+          <span class="glyphicon glyphicon-star-empty glyphicon-sm"></span>
+          <span class="glyphicon glyphicon-star-empty glyphicon-sm"></span>
+         :<b> {{i.ocena}}</b></p></li>
+      </ul>
+      <a href="#!/oglasi/{{$index}}" class="btn btn-info">more details</a>
+    </div>
+  </div>
+</div>
+<br>
+  <div id="prijava" class="container">
+    <h4>Subcsribe to BMW M Power Ads</h4>
+      <p>By signing up, you get notifications for the latest ads and the ability to advertise on BMW M Power Ads</p>
+    <form action="/action_page.php">
+      <div class="input-group">
+  <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+  <input id="email" type="text" class="form-control" name="email" placeholder="Enter Email">
+</div>
+<div class="input-group">
+  <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
+  <input id="password" type="password" class="form-control" name="password" placeholder="Enter Password">
+</div>
+      <div class="checkbox">
+        <label><input type="checkbox" name="remember"> Remember Me</label>
+      </div>
+      <button type="submit" class="btn btn-default">Submit</button>
+    </form>
+  </div>
+<br><oglasi-footer></oglasi-footer>

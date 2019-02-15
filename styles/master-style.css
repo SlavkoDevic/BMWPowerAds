@@ -1,0 +1,186 @@
+body {
+  background-image:url(https://3dexport.com/items/2017/08/17/464228/177003/20_brushed_metal_background_textures_3d_model_c4d_max_obj_fbx_ma_lwo_3ds_3dm_stl_1909012_o.jpg);
+  background-position: center;
+  background-size: cover;
+}
+h3 .glyphicon {
+  font-size: 18px;
+}
+.oglas ul {
+  list-style-type: none;
+  padding: 0px;
+}
+#myCarousel {
+  width: 1000px;
+  height: 450px;
+  margin: auto;
+  /* margin-bottom: 50px; */
+  /* margin-top: 50px; */
+  border:5px;
+  border-radius: 1%;
+  border-style: double;
+  overflow: hidden;
+}
+.row {
+  margin: auto;
+  width: 1000px;
+  padding-top: 100px;
+}
+.carousel-caption h3 {
+  font-size: 50px;
+}
+.carousel-caption p {
+  font-size: 20px;
+    padding-bottom: 70px;
+}
+.dropdown {
+    margin-top: 4%;
+    margin-left: 10px;
+}
+.text-primary {
+  text-align: center;
+  font-size: 50px;
+}
+.text-info {
+  font-size: 30px;
+}
+
+
+#oglas {
+  width: 1000px;
+  margin: auto;
+  position: relative;
+  margin-top: 4%;
+}
+.panel-primary {
+  text-align: center;
+  background-image: url(../Images/çarbon-background.jpg);
+  background-size: cover;
+  color: white;
+  opacity: 0.7;
+  width: 1000px;
+}
+.panel-default {
+  text-align: center;
+}
+#oglas p {
+  text-align: center;
+  font-size: 20px;
+}
+label {
+  font-size: 25px;
+}
+#oglas .img-fluid {
+  border:5px;
+  border-radius: 3%;
+  border-style: double;
+  width: 1000px;
+  height: 600px;
+  background-size: cover;
+  overflow: hidden;
+}
+#aboutus {
+  width: 50%;
+  margin: auto;
+  position: relative;
+  margin-top: 5%;
+  padding-left: 1%;
+  padding-right: 1%;
+}
+.glyphicon-step-backward {
+    font-size: 20px;
+    font-weight: bold;
+}
+.glyphicon-shopping-cart {
+  margin-top: 20px;
+}
+.btn-info {
+  height: 40px;
+  line-height: 25px;
+  font-size: 20px;
+}
+.navbar-inverse {
+  border-radius: 0px !important;
+  box-shadow: 0px 10px 35px 10px black;
+  background-color: black;
+}
+.registracija input{
+  width: 85%;
+  height: 35px;
+  display: block;
+  margin: auto;
+  margin-bottom: 20px;
+  margin-top: -15px;
+}
+.registracija p {
+  padding-left: 5%;
+  text-align: center;
+}
+.registracija .btn {
+  display: block;
+  margin: auto;
+  width: 70%;
+  margin-top: 30px;
+
+}
+.navbar-default {
+  margin-top: 50px;
+box-shadow: 10px 5px 10px 20px #f8f8f8;
+text-align: center;
+}
+.img-rounded {
+  height: 110px;
+  width: 180px;
+  margin: auto;
+  border:5px;
+  border-style: double;
+  border-color: gray;
+}
+#facebook {
+  background-image: url(../Images/facebookfollow.jpg);
+  background-position: center;
+  background-size: cover;
+  width: 150px;
+  height: 50px;
+  text-align: left;
+  margin: auto;
+}
+#instagram {
+  background-image: url(../Images/instagramfollow.jpg);
+  background-position: center;
+  background-size: cover;
+width: 150px;
+height: 50px;
+  text-align: left;
+margin: auto;
+}
+#twitter {
+  background-image: url(../Images/twitterfollow.jpg);
+  background-position: center;
+  background-size: cover;
+width: 150px;
+height: 50px;
+  text-align: left;
+margin: auto;
+}
+#googleplay {
+  background-image: url(../Images/googleplay.jpg);
+  background-position: center;
+  background-size: cover;
+width: 150px;
+height: 50px;
+  text-align: left;
+margin: auto;
+}
+#appstore {
+  background-image: url(../Images/appstore.jpg);
+  background-position: center;
+  background-size: cover;
+width: 150px;
+height: 50px;
+  text-align: left;
+margin: auto;
+}
+.text-success {
+  font-size: 50px;
+}
